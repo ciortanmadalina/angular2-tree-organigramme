@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+body, .ui-widget{
+    font-size: 16px;
+}
+body{
+  margin: 0px;
+}
+
+.content{
+  display:flex;
+}
+
+app-menu{
+  width: 300px;
+}
+/* Overwrite bootstrap styles*/
+ul.nav a:hover, ul.nav a:focus {
+  border-radius: 0px 10px 10px 0px;
+  margin: 1px;
+}
+
+.ui-tree .ui-tree-container{
+  overflow: visible;
+}
+
+.ui-widget-content{
+  border: none;
+}
+
+.Service{
+  background:url('./assets/img/Service.png');
+  width:15px;
+  height:15px;
+}
+
+.Responsible {
+  background:url('./assets/img/Responsible.png');
+  width:20px;
+  height:20px;
+}
+
+.CIO{
+  background:url('./assets/img/CIO.png');
+  width:20px;
+  height:20px;
+}
+
+.Personnel{
+  background:url('./assets/img/Person.png');
+  width:20px;
+  height:20px;
+}
+
+.Extern{
+  background:url('./assets/img/Extern.png');
+  width:20px;
+  height:20px;
+}

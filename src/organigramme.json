@@ -1,0 +1,43 @@
+{
+    "data": 
+    [
+        {
+            "label": "ALLIANZ",
+            "data": "Service",
+            "children": [
+                {
+                    "label": "FRANSSEN ROBERT",
+                    "data": "Responsible"
+                },
+                {
+                    "label": "BUYSE EDWARD",
+                    "data": "CIO"
+                },
+                
+                {
+                    "label": "TECHNOLOGY ARCHITECTURE OFFICE",
+                    "data": "Service",
+                    "children": [
+                        {
+                            "label": "BERTHOLET THIERRY", 
+                            "data": "Personnel"
+                        },
+                        {
+                            "label": "DE LATHOUWER MIGUEL", 
+                            "data": "Personnel"
+                        }
+                    ]
+                }
+                                           
+                ]
+        },
+        {
+            "label": "AMOS",
+            "data": "Service",
+
+            "children": [
+                {"label": "KAHL THOMAS", "data": "Extern"}
+                ]
+        }
+    ]
+}

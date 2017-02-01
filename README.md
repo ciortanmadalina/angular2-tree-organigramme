@@ -2,6 +2,12 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
+It implements a simple scenario of tree view showing the role based hierarchy of employees of a company.
+
+Input data is loaded from organigramme.json.
+It is loaded in a Depth First Search which also populates tree nodes with corresponding icons.
+ 
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

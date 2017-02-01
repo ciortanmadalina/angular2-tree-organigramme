@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Organigramme</h1>
+  <p-growl [value]="msgs"></p-growl>
+  <p-tree [value]="files" 
+    selectionMode="single" 
+    [(selection)]="selectedFile" 
+    (onNodeSelect)="nodeSelect($event)" 
+    (onNodeUnselect)="nodeUnselect($event)"></p-tree>
+<div style="margin-top:80px">Selected Node: {{selectedFile ? selectedFile.label : 'none'}}</div>
+
+</div>
+
+
